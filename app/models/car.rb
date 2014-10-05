@@ -1,0 +1,1 @@
+class Car << ActiveRecord::Base
