@@ -1,0 +1,12 @@
+<div class="index">
+
+
+
+<ul>
+  <% @cars.each do |car| %>
+    <li>
+      <%= link_to car.manufacturer, car %><br>
+    </li>
+  </ul>
+<% end %>
+</div>

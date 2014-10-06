@@ -1,6 +1,6 @@
 class CarsController < ApplicationController
 
   def index
-    @cars = Car.includes
-
+    @cars = Car.all
+  end
 end
